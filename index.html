@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Autopeças Oliveira</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="imgs/logo.jpeg" alt="Logo da Autopeças Online" class="logo">
+            <h1>Autopeças</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">HOME</a></li>
+                    <li><a href="#produtos">PRODUTOS</a></li>
+                    <li><a href="#contato">CONTATOS</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home">
+        <h2>Bem-vindo à nossa loja de autopeças!</h2>
+        <p>Encontre as melhores peças para o seu carro.</p>
+        <div class="slider">
+            <button class="prev" onclick="plusSlides(-1)">&#10094;</button>
+            <div class="slide-container">
+                <div class="slide">
+                    <img src="imgs/imgPromocao.jpeg" alt="Slide 1">
+                </div>
+                <div class="slide">
+                    <img src="imgs/imgQuebrou.jpeg" alt="Slide 2">
+                </div>
+                <div class="slide">
+                    <img src="imgs/imgQuebrou.jpeg" alt="Slide 3">
+                </div>
+            </div>
+            <button class="next" onclick="plusSlides(1)">&#10095;</button>
+        </div>
+    </section>
+
+    <section id="produtos">
+        <h2>Produtos</h2>
+
+        <h3>Aditivos / Arrefecimento</h3>
+        <div class="carrossel">
+            <div class="produto">
+                <img src="imgs/Nova pasta/aditivo1.jpg" alt="Pneu 1">
+                <h4>Paraflu Org Long Life Rosa P Uso 10-3004 1L <br>R$29,80</h4>
+                <button onclick="openModal('Paraflu Org Long Life Rosa P Uso 10-3004 1L', 'O Paraflu Org Long Life Rosa P Uso 10-3004 1L é um aditivo para radiador pronto para uso que protege o sistema de arrefecimento dos motores contra a corrosão, cavitação, formação de espuma, superaquecimento, congelamento e ressecamento das mangueiras. ', 'imgs/Nova pasta/aditivo1.jpg')">Mais informações</button>
+            </div>
+            <div class="produto">
+                <img src="imgs/Nova pasta/aditivo1.jpg" alt="Pneu 1">
+                <h4>Paraflu Org Long Life Rosa P Uso 10-3004 1L <br>R$29,80</h4>
+                <button onclick="openModal('Paraflu Org Long Life Rosa P Uso 10-3004 1L', 'O Paraflu Org Long Life Rosa P Uso 10-3004 1L é um aditivo para radiador pronto para uso que protege o sistema de arrefecimento dos motores contra a corrosão, cavitação, formação de espuma, superaquecimento, congelamento e ressecamento das mangueiras. ', 'imgs/Nova pasta/aditivo1.jpg')">Mais informações</button>
+            </div>
+            <div class="produto">
+                <img src="imgs/Nova pasta/aditivo1.jpg" alt="Pneu 1">
+                <h4>Paraflu Org Long Life Rosa P Uso 10-3004 1L <br>R$29,80</h4>
+                <button onclick="openModal('Paraflu Org Long Life Rosa P Uso 10-3004 1L', 'O Paraflu Org Long Life Rosa P Uso 10-3004 1L é um aditivo para radiador pronto para uso que protege o sistema de arrefecimento dos motores contra a corrosão, cavitação, formação de espuma, superaquecimento, congelamento e ressecamento das mangueiras. ', 'imgs/Nova pasta/aditivo1.jpg')">Mais informações</button>
+            </div>
+            <div class="produto">
+                <img src="imgs/Nova pasta/aditivo1.jpg" alt="Pneu 1">
+                <h4>Paraflu Org Long Life Rosa P Uso 10-3004 1L <br>R$29,80</h4>
+                <button onclick="openModal('Paraflu Org Long Life Rosa P Uso 10-3004 1L', 'O Paraflu Org Long Life Rosa P Uso 10-3004 1L é um aditivo para radiador pronto para uso que protege o sistema de arrefecimento dos motores contra a corrosão, cavitação, formação de espuma, superaquecimento, congelamento e ressecamento das mangueiras. ', 'imgs/Nova pasta/aditivo1.jpg')">Mais informações</button>
+            </div>
+            
+            <!-- Adicione mais produtos conforme necessário -->
+        </div>
+
+        <h3>Auto peças</h3>
+        <div class="carrossel">
+            <div class="produto">
+                <img src="imgs/Nova pasta/carburador1.jpg" alt="Freio 1">
+                <h4>Carburador do Carro para 40 Idf Carb Carburador Motor Com 2 Juntas para 40 Idf <br>R$915,29</h4>
+                <button onclick="openModal('Carburador do Carro para 40 Idf Carb Carburador Motor Com 2 Juntas para 40 Idf', 'Bom em misturar combustível e ar mantém o motor funcionando sem problemas. · Útil para evitar o desperdício de óleo até certo ponto.', 'imgs/Nova pasta/carburador1.jpg')">Mais informações</button>
+            </div>
+            <div class="produto">
+                <img src="imgs/Nova pasta/carburador1.jpg" alt="Freio 1">
+                <h4>Carburador do Carro para 40 Idf Carb Carburador Motor Com 2 Juntas para 40 Idf <br>R$915,29</h4>
+                <button onclick="openModal('Carburador do Carro para 40 Idf Carb Carburador Motor Com 2 Juntas para 40 Idf', 'Bom em misturar combustível e ar mantém o motor funcionando sem problemas. · Útil para evitar o desperdício de óleo até certo ponto.', 'imgs/Nova pasta/carburador1.jpg')">Mais informações</button>
+            </div>
+            <div class="produto">
+                <img src="imgs/Nova pasta/carburador1.jpg" alt="Freio 1">
+                <h4>Carburador do Carro para 40 Idf Carb Carburador Motor Com 2 Juntas para 40 Idf <br>R$915,29</h4>
+                <button onclick="openModal('Carburador do Carro para 40 Idf Carb Carburador Motor Com 2 Juntas para 40 Idf', 'Bom em misturar combustível e ar mantém o motor funcionando sem problemas. · Útil para evitar o desperdício de óleo até certo ponto.', 'imgs/Nova pasta/carburador1.jpg')">Mais informações</button>
+            </div>
+            <div class="produto">
+                <img src="imgs/Nova pasta/carburador1.jpg" alt="Freio 1">
+                <h4>Carburador do Carro para 40 Idf Carb Carburador Motor Com 2 Juntas para 40 Idf <br>R$915,29</h4>
+                <button onclick="openModal('Carburador do Carro para 40 Idf Carb Carburador Motor Com 2 Juntas para 40 Idf', 'Bom em misturar combustível e ar mantém o motor funcionando sem problemas. · Útil para evitar o desperdício de óleo até certo ponto.', 'imgs/Nova pasta/carburador1.jpg')">Mais informações</button>
+            </div>
+           
+            <!-- Adicione mais produtos conforme necessário -->
+        </div>
+
+        <h3>Baterias</h3>
+        <div class="carrossel">
+            <div class="produto">
+                <img src="imgs/Nova pasta/bateria.jpg" alt="Bateria 1">
+                <h4>Bateria Bosch Automotiva 60 AH – 12V– Selada S5X 60D</h4>
+                <button onclick="openModal('Bateria Bosch Automotiva 60 AH – 12V– Selada S5X 60D', 'Bateria Bosch Automotiva 60 AH – 12V– Selada EFB ( Ref. Yuasa: S5X 60D) * 18 Meses de GARANTIA (pode ser acionada em qualquer representante BOSCH do Brasil)', 'imgs/Nova pasta/bateria.jpg')">Mais informações</button>
+            </div>
+            <div class="produto">
+                <img src="imgs/Nova pasta/bateria.jpg" alt="Bateria 1">
+                <h4>Bateria Bosch Automotiva 60 AH – 12V– Selada S5X 60D</h4>
+                <button onclick="openModal('Bateria Bosch Automotiva 60 AH – 12V– Selada S5X 60D', 'Bateria Bosch Automotiva 60 AH – 12V– Selada EFB ( Ref. Yuasa: S5X 60D) * 18 Meses de GARANTIA (pode ser acionada em qualquer representante BOSCH do Brasil)', 'imgs/Nova pasta/bateria.jpg')">Mais informações</button>
+            </div>
+            <div class="produto">
+                <img src="imgs/Nova pasta/bateria.jpg" alt="Bateria 1">
+                <h4>Bateria Bosch Automotiva 60 AH – 12V– Selada S5X 60D</h4>
+                <button onclick="openModal('Bateria Bosch Automotiva 60 AH – 12V– Selada S5X 60D', 'Bateria Bosch Automotiva 60 AH – 12V– Selada EFB ( Ref. Yuasa: S5X 60D) * 18 Meses de GARANTIA (pode ser acionada em qualquer representante BOSCH do Brasil)', 'imgs/Nova pasta/bateria.jpg')">Mais informações</button>
+            </div>
+            <div class="produto">
+                <img src="imgs/Nova pasta/bateria.jpg" alt="Bateria 1">
+                <h4>Bateria Bosch Automotiva 60 AH – 12V– Selada S5X 60D</h4>
+                <button onclick="openModal('Bateria Bosch Automotiva 60 AH – 12V– Selada S5X 60D', 'Bateria Bosch Automotiva 60 AH – 12V– Selada EFB ( Ref. Yuasa: S5X 60D) * 18 Meses de GARANTIA (pode ser acionada em qualquer representante BOSCH do Brasil)', 'imgs/Nova pasta/bateria.jpg')">Mais informações</button>
+            </div>
+           
+            <!-- Adicione mais produtos conforme necessário -->
+        </div>
+    </section>
+
+    <section id="contato">
+        <h2>Contatos</h2>
+        <p>Para mais informações ou assistência, entre em contato com nossos vendedores:</p>
+        <ul>
+            <li><a href="tel:+99999999999">Vendedor 1: (99) 90000-0000 / Vendedor</a></li>
+            <li><a href="tel:+99999999999">Vendedor 2: (99) 90000-0000 / Vendedor</a></li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Autopeças. Todos os direitos reservados.</p>
+    </footer>
+
+    <!-- Modal -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <h2 id="modal-title"></h2>
+            <img id="modal-image" src="" alt="Imagem do produto">
+            <p id="modal-description"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
